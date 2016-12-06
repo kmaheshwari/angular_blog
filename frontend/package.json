@@ -42,7 +42,9 @@
     "ts-node": "1.2.1",
     "tslint": "3.13.0",
     "typescript": "~2.0.3",
-    "webdriver-manager": "10.2.5"
+    "webdriver-manager": "10.2.5",
+    "ng2-bootstrap": "^1.1.16",
+    "ng2-select": "^1.1.2"
   },
   "devDependencies": {
     "@angular/compiler-cli": "2.2.1",

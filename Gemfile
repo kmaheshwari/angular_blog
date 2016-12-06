@@ -11,7 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'active_model_serializers'
-
+gem 'therubyracer'
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'pry-rails'

@@ -5,7 +5,7 @@ export class Sort implements PipeTransform {
   transform(value: Array<any>, sortBy: any): Array<any> {
   	if (sortBy && sortBy != "none") {
     	if (sortBy == "latest")
-    		return value.sort((a: any,b: any) => {return new Date(b.created_at).getTime() - new Date(a.created_at).getTime()})
+    		return value.sort((a: any,b: any) => {debugger; return new Date(b.created_at).getTime() - new Date(a.created_at).getTime()})
 	    else if(sortBy == "popular")
 	    {
 	    	return value.sort((a: any, b: any) => {
